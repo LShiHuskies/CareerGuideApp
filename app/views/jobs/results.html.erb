@@ -1,0 +1,74 @@
+<h2>Job Search Results</h2>
+<p>Average Salary: $<%= @mean %></p>
+<ul>
+  <% @job_results.each do |job| %>
+    <li><strong>Company: <%= job[:company_name] %></strong></li> <br>
+    <ul>
+      <br>
+      <li>Title: <%= job[:title] %></li>
+      <li>Description: <%= job[:description] %></li>
+      <li>URL: <a href="<%= job[:redirect_url] %>" target="_blank">See details</a></li>
+
+      <% displayed_job = Job.find_by(listing_id: job[:listing_id]) %>
+      <% if current_user.jobs.include?(displayed_job)%>
+        <%= "Already Saved!" %>
+      <% else %>
+        <%= form_for @job, url: {action: "create"} do |f| %>
+          <%= f.hidden_field :company_name, :value => job[:company_name] %>
+          <%= f.hidden_field :title, :value => job[:title] %>
+          <%= f.hidden_field :description, :value => job[:description] %>
+          <%= f.hidden_field :redirect_url, :value => job[:redirect_url] %>
+          <%= f.hidden_field :listing_id, :value => job[:listing_id] %>
+          <%= f.hidden_field :language_id, :value => Language.find_by(lang_name: @language).id %>
+          <%= f.submit "Save Job"%>
+        <% end %>
+      <% end %>
+      <br>
+    </ul>
+    <br>
+  <% end %>
+</ul>
+<div>
+<% @pg_num = 1 %>
+<% @count.times do %>
+  <%= link_to @pg_num, "/jobs/results/?#{{:language => @language}.to_query}&page=#{@pg_num}" %>
+  <% @pg_num += 1 %>
+<% end %>
+
+<%= link_to "Search again", search_path %>
+</div>
+<style>
+
+  h2 {
+    text-align: center;
+    font-size: 28px;
+  }
+  body {
+    background-image: url("http://kb4images.com/images/plain-background-images/36161486-plain-background-images.jpg");
+    background-repeat: no-repeat;
+    background-size: 200% 200%;
+  }
+  html {
+    height: 225%;
+  }
+
+  ul {
+    background-color: rgba(140, 140, 140, .6);
+  }
+
+  div {
+    background-color: rgba(170, 170, 170, 0.75);
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  strong {
+    font-weight: bold;
+    font-size: 22px;
+  }
+</style>

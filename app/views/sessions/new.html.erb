@@ -1,0 +1,63 @@
+<h2>Login</h2>
+
+<ul id="errors">
+<% if flash[:errors] %>
+  <%  flash[:errors].each do |e| %>
+     <li><%= e %></li>
+  <% end %>
+<% end %>
+</ul>
+
+<ul id="newUser">
+  <% if @users.length > 0 %>
+    <% if session[:user_id] == User.last.id %>
+  Thank you for signing up, please enter your credentials below.
+    <% end %>
+  <% end %>
+</ul>
+<div>
+<%= form_tag sessions_path do %>
+  <%= label_tag "Username" %>
+  <%= text_field_tag :username %>
+  <%= label_tag "Password" %>
+  <%= password_field_tag :password %>
+  <%= submit_tag "Submit" %>
+<% end %>
+</div>
+
+<style>
+  #errors {
+    color: red;
+    font-family: 'Gloria Hallelujah', cursive;
+  }
+
+  #newUser {
+    color: green;
+    font-family: 'Gloria Hallelujah', cursive;
+  }
+
+  body {
+    background-image: url("http://www.simonlee.online/wp-content/uploads/2015/05/mountainpath.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  html {
+    height: 100%;
+  }
+
+  h2 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+  }
+
+  div {
+    text-align: center;
+  }
+
+  ul {
+    text-align: center;
+    font-size: 30px;
+  }
+</style>

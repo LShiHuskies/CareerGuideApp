@@ -1,0 +1,65 @@
+<% if session[:user_id] && session[:user_id] == @user.id %>
+  <h2 id="name">Welcome <%= @user.name %>! </h2>
+  <% end %>
+
+<% if @user.jobs.length > 0 %>
+  <h2>Your Saved Jobs</h2>
+  <% @user.jobs.each do |job| %>
+    <li><%= job.company_name %> | <%= link_to job.title, job %> <br>
+    <br></li>
+  <% end %>
+<% end %>
+
+
+<h2>Your Languages</h2>
+<% @user.languages.each do |l| %>
+  <li><%= link_to l.lang_name, l%><br>
+  <ul><%= l.description %></ul>
+  </li>
+<% end  %>
+
+<br>
+<br>
+<div>
+<%= link_to "Edit Your Profile", edit_user_path %> |
+<%= link_to "See All Languages", languages_path %> |
+<%= link_to "Search Jobs", search_path %>
+<div>
+
+<style>
+  li {
+    background-color: rgba(50, 50, 50, .3);
+    margin: 0px 0px 0px 0px;
+    padding: 1px 1px 1px;
+    font-size: 20px;
+
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  body {
+    background-image: url("http://kb4images.com/images/plain-background-images/36161486-plain-background-images.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  html {
+    height: 120%;
+  }
+
+  #name {
+    font-size: 30px;
+  }
+
+  div {
+    background-color: rgba(175, 175, 175, 0.9);
+    font-size: 20px;
+  }
+
+  ul {
+
+  }
+
+</style>

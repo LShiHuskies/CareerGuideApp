@@ -1,0 +1,53 @@
+<h2>Sign Up Page</h2>
+
+<ul id="errors">
+<% if flash[:errors] %>
+    <% flash[:errors].each do |e| %>
+    <li> <%= e %> </li>
+  <% end %>
+<% end %>
+</ul>
+<div>
+<%= form_for @user do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :username %>
+  <%= f.text_field :username %>
+  <%= f.label :password %>
+  <%= f.password_field :password %>
+  <!-- <%= f.label :password_confirmation  %>
+  <%= f.password_field :password_confirmation %> -->
+  <h3>If you already know what language you are interested in, or have exposure with, please select from the following:</h3>
+  <%= f.collection_check_boxes :language_ids, @languages, :id, :lang_name %>
+  <%= f.submit "Sign Up" %>
+<% end %>
+</div>
+
+
+<style>
+  h2 {
+    font-size: 40px;
+    text-align: center;
+    color: green;
+    font-family: 'Gaegu', cursive;
+  }
+
+  div {
+    text-align: center;
+  }
+
+  body {
+    background-image: url("http://res.cloudinary.com/simpleview/image/upload/v1519670032/clients/newyorkcity/Empire_State_Building_Observatory_manhattan_nyc_Julienne_Schaer_055_3f39d2d1-61fd-4d1b-b931-8590bf4c63a7.jpg")
+  }
+
+  h3 {
+    color: blue;
+    font-family: 'Gloria Hallelujah', cursive;
+  }
+
+  #errors {
+    color: red;
+    font-family: 'Gloria Hallelujah', cursive;
+  }
+
+</style>
