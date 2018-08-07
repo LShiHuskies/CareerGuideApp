@@ -10,12 +10,13 @@
 </ul>
 <div id="form">
 <%= form_for @user do |f| %>
-  <%= f.label :name %>
+  <div id='text'><%= f.label :name %>
   <%= f.text_field :name %>
   <%= f.label :username %>
   <%= f.text_field :username %>
   <%= f.label :password %>
   <%= f.password_field :password %>
+</div>
   <!-- <%= f.label :password_confirmation  %>
   <%= f.password_field :password_confirmation %> -->
   <h3 id="sentence">If you already know what language you are interested in, or have exposure with, please select from the following:</h3>
@@ -31,7 +32,7 @@
 <style>
   h2 {
     color: blue;
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
   }
 
   body {
@@ -53,6 +54,12 @@
   }
 
   #flash {
-    color: pink;
+    color: yellow;
   }
+
+  #text{
+    color: rgba(210, 20, 20, 0.8);
+  }
+
+
 </style>
