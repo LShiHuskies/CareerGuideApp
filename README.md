@@ -1,5 +1,4 @@
 # Career Guide App
-________________________________________________________________________________________________________________________
 
 The objective of this project is to enlighten programmers a search tool and application to provide software developers information of programming languages and jobs available based on programming languages and the average salaries for the jobs and programming languages.
 
@@ -9,7 +8,7 @@ User can edit their profile, add or delete a programming language of their choic
 
 
 # How to Install & Run Program
-________________________________________________________________________________________________________________________
+
 
 1. Fork and clone this repository to your local environment.
 2. Navigate to the file directory from your terminal.
