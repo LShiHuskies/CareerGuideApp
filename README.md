@@ -22,3 +22,6 @@ User can edit their profile, add or delete a programming language of their choic
 10. Click 'My Profile' to view your saved jobs and educational resources about your selected languages.
 11. To edit your information, click 'Edit Profile', make your desired changes, type in your password, then click 'Edit'.
 12. When you are done browsing, click 'Log Out'.
+
+
+To see an example of user workflow, watch the tutorial at https://www.youtube.com/watch?v=m0CuCJgi1cM&feature=youtu.be.
