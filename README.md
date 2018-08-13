@@ -1,6 +1,6 @@
 # Career Guide App
 
-<img width="1674" alt="screen shot 2018-08-13 at 2 35 54 pm" src="https://user-images.githubusercontent.com/34640293/44052844-d48ff732-9f0b-11e8-86b6-6acbc2d21d0b.png">
+<img width="300" alt="screen shot 2018-08-13 at 3 29 42 pm" src="https://user-images.githubusercontent.com/34640293/44053808-c7ca3438-9f0e-11e8-965b-a3d5879505cf.png">
 
 The objective of this project is to enlighten programmers a search tool and application to provide software developers information of programming languages and jobs available based on programming languages and the average salaries for the jobs and programming languages.
 
@@ -20,9 +20,9 @@ User can edit their profile, add or delete a programming language of their choic
 8. Click 'Sign Up' if it is your first time using the app, enter your information, and select your languages of       interest. Click 'Login' if you are a returning user.
 
 
-<img width="1259" alt="screen shot 2018-08-13 at 3 33 08 pm" src="https://user-images.githubusercontent.com/34640293/44053629-423cde2e-9f0e-11e8-8ea8-6b1adcb25ceb.png">
+<img width="300" alt="screen shot 2018-08-13 at 3 33 08 pm" src="https://user-images.githubusercontent.com/34640293/44053629-423cde2e-9f0e-11e8-8ea8-6b1adcb25ceb.png">
 
-<img width="1454" alt="screen shot 2018-08-13 at 3 34 39 pm" src="https://user-images.githubusercontent.com/34640293/44053697-716f41b4-9f0e-11e8-81ea-cbbb76e73e1a.png">
+<img width="300" alt="screen shot 2018-08-13 at 3 34 39 pm" src="https://user-images.githubusercontent.com/34640293/44053697-716f41b4-9f0e-11e8-81ea-cbbb76e73e1a.png">
 
 9. Click 'Job Search' to execute searches and save desired jobs.
 10. Click 'My Profile' to view your saved jobs and educational resources about your selected languages.
