@@ -1,6 +1,6 @@
 # Career Guide App
 
-<img width="400" height="400" alt="screen shot 2018-08-13 at 3 29 42 pm" src="https://user-images.githubusercontent.com/34640293/44053808-c7ca3438-9f0e-11e8-965b-a3d5879505cf.png">
+<img width="400" height="50" alt="screen shot 2018-08-13 at 3 29 42 pm" src="https://user-images.githubusercontent.com/34640293/44053808-c7ca3438-9f0e-11e8-965b-a3d5879505cf.png">
 
 The objective of this project is to enlighten programmers a search tool and application to provide software developers information of programming languages and jobs available based on programming languages and the average salaries for the jobs and programming languages.
 
