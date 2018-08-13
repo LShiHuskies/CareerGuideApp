@@ -21,12 +21,14 @@ User can edit their profile, add or delete a programming language of their choic
 11. To edit your information, click 'Edit Profile', make your desired changes, type in your password, then click 'Edit'.
 12. When you are done browsing, click 'Log Out'.
 
+<img width="1674" alt="screen shot 2018-08-13 at 2 35 54 pm" src="https://user-images.githubusercontent.com/34640293/44052844-d48ff732-9f0b-11e8-86b6-6acbc2d21d0b.png">
+
+
 To see an example of user workflow, watch the tutorial at https://www.youtube.com/watch?v=m0CuCJgi1cM&feature=youtu.be.
 
 # API Reference
 
 We use Adzuna API (https://developer.adzuna.com/). Please feel free to register and create your own account.
-
 
 # Credits
 
