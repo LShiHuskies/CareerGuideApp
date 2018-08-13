@@ -27,6 +27,13 @@ User can edit their profile, add or delete a programming language of their choic
 
 
 9. Click 'Job Search' to execute searches and save desired jobs.
+
+<div display="inline">
+<img width="425" height="300" alt="screen shot 2018-08-13 at 4 25 58 pm" src="https://user-images.githubusercontent.com/34640293/44056238-a824c916-9f15-11e8-9fd7-a1fcf2868a7b.png">
+
+<img width="425" alt="screen shot 2018-08-13 at 4 27 50 pm" src="https://user-images.githubusercontent.com/34640293/44056329-e9dca0fe-9f15-11e8-91d0-23ebddea7360.png">
+</div>
+
 10. Click 'My Profile' to view your saved jobs and educational resources about your selected languages.
 11. To edit your information, click 'Edit Profile', make your desired changes, type in your password, then click 'Edit'.
 12. When you are done browsing, click 'Log Out'.
@@ -43,5 +50,3 @@ We use Adzuna API (https://developer.adzuna.com/). Please feel free to register 
 # Credits
 
 This project was inspired by Indeed and Linkedin.
-
-Collaborators: Jeffrey Hwang, Ryan Ghaida, Sydney Garay and Louis Shi
