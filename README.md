@@ -20,9 +20,9 @@ User can edit their profile, add or delete a programming language of their choic
 8. Click 'Sign Up' if it is your first time using the app, enter your information, and select your languages of       interest. Click 'Login' if you are a returning user.
 
 <div display="inline">
-<img width="450" height="300" alt="screen shot 2018-08-13 at 3 33 08 pm" src="https://user-images.githubusercontent.com/34640293/44053629-423cde2e-9f0e-11e8-8ea8-6b1adcb25ceb.png">
+<img width="425" height="300" alt="screen shot 2018-08-13 at 3 33 08 pm" src="https://user-images.githubusercontent.com/34640293/44053629-423cde2e-9f0e-11e8-8ea8-6b1adcb25ceb.png">
 
-<img width="450" height="300" alt="screen shot 2018-08-13 at 3 34 39 pm" src="https://user-images.githubusercontent.com/34640293/44053697-716f41b4-9f0e-11e8-81ea-cbbb76e73e1a.png">
+<img width="425" height="300" alt="screen shot 2018-08-13 at 3 34 39 pm" src="https://user-images.githubusercontent.com/34640293/44053697-716f41b4-9f0e-11e8-81ea-cbbb76e73e1a.png">
 </div>
 
 
