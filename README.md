@@ -42,5 +42,6 @@ We use Adzuna API (https://developer.adzuna.com/). Please feel free to register 
 
 # Credits
 
-Inspired by Linkedin and Indeed
+This project was inspired by Indeed and Linkedin.
+
 Collaborators: Jeffrey Hwang, Ryan Ghaida, Sydney Garay and Louis Shi
