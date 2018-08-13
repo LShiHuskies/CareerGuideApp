@@ -6,9 +6,7 @@ To start, When you create an account, there are certain validations in place to 
 
 User can edit their profile, add or delete a programming language of their choice. For this project, we utilized Adzuna API to allow users to search for developer jobs in the New York area by querying with different sets of criteria. Users can click a link to visit the apply page for each job, save jobs for later, and view educational resources about their selected languages of interest.
 
-
 # How to Install & Run Program
-
 
 1. Fork and clone this repository to your local environment.
 2. Navigate to the file directory from your terminal.
@@ -23,5 +21,14 @@ User can edit their profile, add or delete a programming language of their choic
 11. To edit your information, click 'Edit Profile', make your desired changes, type in your password, then click 'Edit'.
 12. When you are done browsing, click 'Log Out'.
 
-
 To see an example of user workflow, watch the tutorial at https://www.youtube.com/watch?v=m0CuCJgi1cM&feature=youtu.be.
+
+# API Reference
+
+We use Adzuna API (https://developer.adzuna.com/). Please feel free to register and create your own account.
+
+
+# Credits
+
+Inspired by Linkedin and Indeed
+Collaborators: Jeffrey Hwang, Ryan Ghaida, Sydney Garay and Louis Shi
