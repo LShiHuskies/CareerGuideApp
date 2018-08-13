@@ -31,11 +31,17 @@ User can edit their profile, add or delete a programming language of their choic
 <div display="inline">
 <img width="425" height="300" alt="screen shot 2018-08-13 at 4 25 58 pm" src="https://user-images.githubusercontent.com/34640293/44056238-a824c916-9f15-11e8-9fd7-a1fcf2868a7b.png">
 
-<img width="425" alt="screen shot 2018-08-13 at 4 27 50 pm" src="https://user-images.githubusercontent.com/34640293/44056329-e9dca0fe-9f15-11e8-91d0-23ebddea7360.png">
+<img width="425" height="300" alt="screen shot 2018-08-13 at 4 27 50 pm" src="https://user-images.githubusercontent.com/34640293/44056329-e9dca0fe-9f15-11e8-91d0-23ebddea7360.png">
 </div>
 
 10. Click 'My Profile' to view your saved jobs and educational resources about your selected languages.
+
+<img width="500" alt="screen shot 2018-08-13 at 4 33 51 pm" src="https://user-images.githubusercontent.com/34640293/44056717-073167ec-9f17-11e8-8585-a0f4fb7c5729.png">
+
 11. To edit your information, click 'Edit Profile', make your desired changes, type in your password, then click 'Edit'.
+
+<img width="500" alt="screen shot 2018-08-13 at 4 43 28 pm" src="https://user-images.githubusercontent.com/34640293/44057067-174dc4f8-9f18-11e8-836a-77e9e8cf6487.png">
+
 12. When you are done browsing, click 'Log Out'.
 
 
