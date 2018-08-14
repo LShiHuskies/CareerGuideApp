@@ -47,7 +47,7 @@ User can edit their profile, add or delete a programming language of their choic
 
 
 
-To see an example of user workflow, watch the tutorial at [Career Guide App](https://www.youtube.com/watch?v=FAVWF2CW9DU&t=103s)
+To see an example of user workflow, watch the tutorial at [Career Guide App](https://www.youtube.com/watch?v=FAVWF2CW9DU)
 
 # API Reference
 
